@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Arial';
+  src: url('./assets/fonts/arial/8d223b3ad8d4819e9dcf22757e4cc2c4.woff2') format('woff2'),
+       url('./assets/fonts/arial/8d223b3ad8d4819e9dcf22757e4cc2c4.woff') format('woff');
+  /* Add more source declarations if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 24px !important;
+  background: linear-gradient(180deg,#e7e7f1 .62%,rgba(231,231,241,0) 95.76%) !important;
+  /* background: #cccccc30 !important; */
+}
+
+.autosubmit{
+   background: #3182ce;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
